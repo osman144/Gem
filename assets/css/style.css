@@ -1,0 +1,100 @@
+body{
+    background-image: url
+}
+
+#header1{
+    text-align:center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(224, 149, 8);
+
+}
+
+.col-md-6{
+    margin-bottom:10px;
+    margin-left: 100px;
+}
+
+
+.instructions{
+    display: block;
+    background-color:rgb(241, 191, 146);
+    border-radius: 10px;
+}
+
+.j{
+    margin-left:20px;
+    margin-bottom:10px;
+
+}
+
+.col-md-3{
+    color:black;
+    background-color:rgb(29, 151, 29);
+    margin-left: 110px;
+    height:100px;
+    border-radius: 10px;
+}
+
+
+#scoreboard{
+    text-align: center;
+    margin-top:15px;
+    font-size:40px;
+}
+
+.col-md-2{
+    height:100px;
+    background-color: cyan;
+    margin-left: 10px;
+}
+
+#wins,#losses,#message{
+    font-size:20px;
+}
+
+.col-md-4{
+    color:black;
+    background-color:rgb(29, 151, 29);
+    margin-left: 10px;
+    margin-bottom:10px;
+    height:120px;
+    border-radius: 10px;
+    font-size:30px;
+}
+
+#randomize{
+    font-size:20px;
+    margin-top:5px;
+    margin-left:100px;
+}
+
+#reset{
+    float:left;
+    width:100px;
+}
+
+#userchoice{
+    margin-left:100px;
+    margin-bottom:50px;
+}
+
+.character {
+    width: 85px;
+    margin-right: 50px;
+    
+
+}
+
+#yoshi{
+    width:160px;
+}
+
+#bowser{
+    width:170px;
+}
+
+main5{
+    display: block;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <header class="row">
+        <header1 class="col-md-12" id="header1">
+            Mario mini 
+        </header1>
+    </header>
+    <div class="row">
+        <div class="col-md-6">
+            <main class="instructions">
+                <p class="j">You will be given a random number at the start of the game</p>
+                <br>
+                <p class="j">There are four sprites below. By clicking on a sprite, you will add a specific amount of points to 
+                    your total score.
+                </p>
+                <br>
+                <p class="j">You win the game by matching your total score to the random number. You lose the game
+                    if your total score goes above the random number.
+                </p>
+                <br>
+                <p class="j">The value of each sprite is hidden from you until you click on it.</p>
+                <p class="j">Each time when the game starts, the game will change the value of each sprite.</p>
+            </main>
+        </div>
+    </div>
+
+    <div class="row">
+        <button id="randomize">Randomize</button>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div id="scoreboard">
+                
+
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div id="wins">Wins: 0</div>
+            <div id="losses">Losses: 0</div>
+            <div id="message"></div>
+        </div>
+
+        <div class="col-md-4">
+            <div id="totalscore">Your total score is:</div>
+            <div id="sum">0</div>
+        </div>
+        <div class="col-md-1">
+            <button id="reset">Reset</button>
+        </div>
+
+    </div>
+
+
+    <div id="userchoice">
+        <button id="btn1"><img src="assets/images/ness.png" alt="" class="character"></button>
+        <button id="btn2"><img src="assets/images/mario.png" alt="" class="character"></button>
+        <button id="btn3"><img src="assets/images/crash.png" alt="" class="character"></button>
+        <button id="btn4"><img src="assets/images/luigi.png" alt="" class="character"></button>
+        <button id="btn5"><img src="assets/images/yoshi.png" alt="" id="yoshi" class="character"></button>
+
+
+    </div>
+
+    
+    <!--Jquery-->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+    <!-- JS file -->
+    <script type="text/javascript" src="assets/javascript/mario.js"></script>
+</body>
+</html>
